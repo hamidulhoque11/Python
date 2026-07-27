@@ -1,0 +1,10 @@
+full_name="Hamidul hoque Masum"
+id=2024000010005
+age=24
+city="cumilla"
+cgpa=3.25
+university="SEU"
+print("Hi my name is "+full_name)
+print("i am ",age," years old")
+print("my university name is "+university+"And my university id is",id)
+print("and finally my cgpa is ",cgpa)
