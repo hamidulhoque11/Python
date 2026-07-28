@@ -1,0 +1,16 @@
+#1st way
+print("---Enter 2 integer values---")
+a=input("Enter a value:")
+b=input("Enter a value:")
+print("a+b=",int(a)+int(b))
+#2nd way
+print("---Again Enter 2 integer values---")
+a= int (input("Enter a value:"))
+b= int (input("Enter a value:"))
+print("a=",a)
+print("b=",b)
+print("a+b=",a+b)
+print("a-b=",a-b)
+print("a*b=",a*b)
+print("a/b=",a/b)
+print("a%b=",a%b)
