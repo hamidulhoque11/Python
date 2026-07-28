@@ -1,0 +1,19 @@
+
+print("10+5=",10+5)
+print("10-5=",10-5)
+print("10*5=",10*5)
+print("10/5=",10/5)
+print("10%5=",10%5)
+print("")
+a=25
+b=6
+print("a =25")
+print("b =6")
+print("a+b=",a+b)
+print("a-b=",a-b)
+print("a*b=",a*b)
+print("a/b=",a/b)
+print("a//b=",a//b)#double slash
+print("a%b=",a%b)
+#power
+print(2**3)
