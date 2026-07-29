@@ -1,0 +1,6 @@
+marks=int(input("Enter your marks:"))
+if marks>=33:
+    print("--Congress your are pass--")
+    print("wellcome for next class")
+else:
+    print("fail")
