@@ -1,0 +1,13 @@
+print("Find the maximum and minimum value")
+value1=int(input("Enter a fast value:"))
+value2=int(input("Enter a second value:"))
+if value1>value2:
+    print("maximum value is :",value1)
+    print("minimum value is :",value2)
+elif value2>value1:  
+    print("minimum value is :",value2)
+    print("minimum value is :",value1)
+elif value1==value2:
+    print("They are same value",value2)
+else:
+    print("Enter any integer value")
