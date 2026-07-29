@@ -1,0 +1,4 @@
+print("Area of circle")
+redius=float (input("Enter a Radius:"))
+area=3.1416*redius*redius
+print("The area of circle is:",area)
