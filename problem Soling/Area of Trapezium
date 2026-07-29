@@ -1,0 +1,6 @@
+print("Area of Trapezium/Trapezoid")
+a=float (input("a:"))
+b=float (input("b:"))
+heigh=float(input("heigh:"))
+area=(a+b/2)*heigh
+print("The Area of Trapezium/Trapezoid is:",area)
