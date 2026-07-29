@@ -1,0 +1,7 @@
+print("hamidul",end=" ")
+print("hoque")
+x=10
+y=42
+result=x+y
+print(f"{x}+{y}={result}")
+print(type(result)) #we can see the data type
