@@ -1,0 +1,5 @@
+if 10>5:
+    if 10>11:
+        print("i am Active")
+    else:
+        print("i am else, iam Active")
