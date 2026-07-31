@@ -1,0 +1,16 @@
+print("Find the largest value:")
+x=float(input("Enter fast value:"))
+y=float(input("Enter second value:"))
+z=float(input("Enter third value:"))
+if x>y:
+    if x>z:
+        print("The largest value is First value:",x)
+    else:
+        print("The largest value is Third value:",z)
+if y>x:
+    if y>z:
+         print("The largest value is Second value:",y)
+    else:
+        print("The largest value is Third value:",z)
+        
+        
