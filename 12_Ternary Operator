@@ -1,0 +1,4 @@
+print("Find the largest value:")
+x=float(input("Enter fast value:"))
+y=float(input("Enter second value:"))
+print(x if x>y else y)
