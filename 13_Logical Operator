@@ -1,0 +1,11 @@
+print("chack Max value")
+valueOne=int(input("Enter fast value:"))
+valueTwo=int(input("Enter second value:"))
+valueThree=int(input("Enter Third value:"))
+if valueOne>valueTwo and valueOne>valueThree :
+    print("maximum value is fast: ",valueOne)
+elif valueTwo>valueOne and valueTwo>valueThree :
+    print("maximum value is second: ",valueTwo)
+else:
+    print("maximum value is third: ",valueThree)
+    
