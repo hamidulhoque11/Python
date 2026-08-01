@@ -1,0 +1,9 @@
+print("----chack small and capital letter -----")
+cha=(input("Enter Any single Character:"))
+if cha >='A' and cha<='Z':
+    print("Capital letter")
+elif cha >='a' and cha<='z':
+    print("Small letter")
+else:
+    print("Please enter any single Alphabet ")
+    
