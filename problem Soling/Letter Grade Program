@@ -1,32 +1,32 @@
 marks=int(input("Enter your marks:"))
-if marks >=40 and marks<=44 :
+if       40<= marks<=44 :
     print("your Grade is D")
     print("And CGP is 2.00")
-elif marks >=45 and marks<=49 :
+elif 45<= marks<=49 :
     print("your Grade is C")
     print("And CGP is 2.25")
-elif marks >=50 and marks<=54 :
+elif 50 <= marks<=54 :
     print("your Grade is C+")
     print("And CGP is 2.50")
-elif marks >=55 and marks<=59 :
+elif 55<= marks<=59 :
     print("your Grade is B-")
     print("And CGP is 2.75")
-elif marks >=60 and marks<=64 :
+elif 60<= marks<=64 :
     print("your Grade is B")
     print("And CGP is 3.00")
-elif marks >=65 and marks<=69 :
+elif 65<= marks<=69 :
     print("your Grade is B+")
     print("And CGP is 3.25")
-elif marks >=70 and marks<=74 :
+elif 70<= marks<=74 :
     print("your Grade is A-")
     print("And CGP is 3.50")
-elif marks >=75 and marks<=79 :
+elif 75<= marks<=79 :
     print("your Grade is A")
     print("And CGP is 3.75")
-elif marks >=80 and marks<=100 :
+elif 80 <= marks<=100 :
     print("your Grade is A+")
     print("And CGP is 4.00")
-elif marks >=0 and marks <=39:
+elif 0<= marks<=39:
     print("your Grade is F")
     print("And CGP is 0.00")
     print("--GoodLuck for next time---")
