@@ -1,0 +1,11 @@
+fruits=["orange","mango","apple","banana",10]
+print(fruits)
+length=len(fruits)
+print("length:",length)
+for x in fruits:
+    print(x)
+print()
+number=list(range(10))
+print(number)
+for x in number:
+    print(x)
