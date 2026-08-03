@@ -1,0 +1,7 @@
+number=list(range(11))
+print(number)
+print("Length :",len(number))
+number=list(range(5,11))
+print(number)
+number=list(range(5,101,5))
+print(number)
