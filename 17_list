@@ -1,0 +1,8 @@
+name=["hamidul","asif","sohan","mufassir"]
+print(name)
+name=["hamidul","asif","sohan","mufassir"]
+print(name[0])
+print("asif"in name)
+print(name[2:])
+print(name[-2])
+print(name+["ujjal","apurba",445])
