@@ -1,0 +1,20 @@
+n=int(input("Enter any value:"))
+#using for loop
+sum=0
+print("--------for loop---")
+for x in range(2,n+1,2):
+    print (x,end=" ")
+    sum=sum+x
+print()
+print("sum of odd value:",sum)
+print()
+#using while loop
+i=2
+result=0
+print("--------while loop---")
+while i<=n:
+    print(i,end=" ")
+    result=result+i 
+    i=i+2
+print()
+print("sum of n value :",result)
