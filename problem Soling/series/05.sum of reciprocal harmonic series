@@ -1,0 +1,22 @@
+# 1/1 1/2 +1/3+ 1/4+....1/n sum of reciprocal/harmonic series
+n=int(input("Enter any value :"))
+print("-----using for loop-----")
+sum=0
+
+for x in range(1,n+1,1):
+    devide=1/x
+    sum=sum+devide
+    print("1/",x,f"= {devide:.2f}")
+print()
+print(f"sum of reciprocal/harmonic series:{sum:.2f}")
+print()
+print("-----using while loop-----")
+result=0
+i=1
+while i<=n:
+    devide=1/i
+    result=result+devide
+    print("1/",i,f"= {devide:.2f}")
+    i=i+1
+print()
+print(f"sum of reciprocal/harmonic series:{result:.2f}")
