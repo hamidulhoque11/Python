@@ -1,0 +1,8 @@
+print("After any value take space,then enter")
+value=input("Enter any value:")
+list=value.split()
+sum=0
+for x in list:
+    print(x)
+    sum=sum+int(x)
+print("sum of String value is:",sum)
