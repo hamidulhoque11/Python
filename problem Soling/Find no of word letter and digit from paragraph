@@ -1,0 +1,21 @@
+value=input("find No of letter digit and space:")
+noOfLetter=0
+noOfdigit=0
+noOfspace=0
+word=0
+for x in value:
+    x=x.lower()
+    word=word+1
+    if x>='a' and x<='z':
+        noOfLetter=noOfLetter+1
+    elif x>='0' and x<='9':
+        noOfdigit=noOfdigit+1
+    elif x==' ':
+        noOfspace=noOfspace+1
+
+others=word-(noOfdigit+noOfLetter+noOfspace)
+print("No of digit:",noOfdigit)
+print("No of Letter:",noOfLetter)
+print("No of space:",noOfspace)
+print("Total word:",word)
+print("Others(,./()+ ...:",others)
