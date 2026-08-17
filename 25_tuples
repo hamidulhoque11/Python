@@ -1,0 +1,9 @@
+teacher=(
+    "hamidul hoque masum",
+    ("jakir",29,5,"cse"),
+    "halima begum",
+    "md mohsin mia",
+)
+print(teacher)
+print(teacher[0])
+print(teacher[1:])
