@@ -1,0 +1,14 @@
+matrix=[
+    [1,2,5],
+    [7,6,23],
+    [36,5,2] ,
+]
+print(matrix)
+print(matrix[1][2])
+matrix[1][2]=30
+print(matrix[1][2])
+
+for row in matrix:
+    for col in row:
+        print(col,end=" ")
+    print()
