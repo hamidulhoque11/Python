@@ -1,0 +1,9 @@
+student={
+    "100":"Hamidiul hoque masum",
+    "101":"mohammad asif mahmud",
+    "102":"mufassir",
+    "103":"anowar",
+}
+print(student["101"])
+print(student.get("100"))
+print(student.get("10","No data"))
