@@ -8,6 +8,14 @@ print("Pop:",name.pop())
 
 print("after pop:",name)
 print("name[-1]:",name[-1])
-print(name.pop())
+print("pop:",name.pop())
 print("name[-1]:",name[-1])
 print(name)
+print("pop:",name.pop())
+print(name)
+print("pop:",name.pop())
+print(name)
+if name:
+    name.pop()
+if not name:
+    print("Name is empty")
