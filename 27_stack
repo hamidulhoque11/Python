@@ -1,0 +1,13 @@
+name=[]
+name.append("hamidul")
+name.append("sohan")
+name.append("arif")
+name.append("mufa")
+print("append:",name)
+print("Pop:",name.pop())
+
+print("after pop:",name)
+print("name[-1]:",name[-1])
+print(name.pop())
+print("name[-1]:",name[-1])
+print(name)
