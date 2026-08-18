@@ -1,0 +1,14 @@
+n={1,2,3,4,5,1,2,3,11,12}
+print("n",n)
+m=set([1,2,3,4,5,1,2,3])
+print("m",m)
+m.add(10)
+print("m:",m)
+m.remove
+print(10 in n)
+print(10 in m)
+
+
+print("Union :",n | m)
+print("intersection:",n&m)
+print("n-m:",n-m)
