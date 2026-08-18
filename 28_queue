@@ -1,0 +1,12 @@
+from collections import deque
+service=deque(["hamiudl","asif","aruf","sanju"])
+print(service)
+print("popleft:",service.popleft())
+print(service)
+print("popleft:",service.popleft())
+print(service)
+print("popleft",service.popleft())
+print(service)
+if service:
+    service.popleft()
+    print(service)
