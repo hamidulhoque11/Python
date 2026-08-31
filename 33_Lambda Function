@@ -1,0 +1,5 @@
+#lambda Function
+result=(lambda a,b:a**2+2*a*b+b**2)(4,6)
+print(result)
+print("area of triangle:",(lambda base,height:(base*height)/2)(2,3))
+print("a+b+c=",(lambda a,b,c:a+b+c)(2,3,5))
