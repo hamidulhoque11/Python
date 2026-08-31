@@ -1,0 +1,9 @@
+#xx-Arguments(dictionary)
+def student(**info):
+    print(info)
+    print(info["id"],end=" ")
+    print (info["name"])
+
+student(id=1025,name="hamidul hoque",age="25")
+student(id=1002,name="mifa",age="25")
+student(name="sohan",id=2024)
