@@ -1,0 +1,11 @@
+def add(a,b):
+    sum=a+b
+    print(sum)
+def massage():
+    print("you have done")
+def add2(a,b,c):
+    sum=a+b+c
+    print(sum)
+add(10,20)
+massage()
+add2(10,20,30)
