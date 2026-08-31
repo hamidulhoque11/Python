@@ -1,0 +1,12 @@
+#x-Arguments(tuple)
+def student(*all):
+    print(all)
+def addition(*num):
+    sum=0
+    for x in num:
+        sum=x+sum
+    print(sum)
+student(102,"hamidul",24,"cumilla")
+addition(10,20)
+addition(10,20,30)
+addition(20,100,1,2,6)
