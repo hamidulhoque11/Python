@@ -1,0 +1,23 @@
+'''name:hamidul
+age:25
+batch:19
+semeter:8th'''
+folder=open("data.txt","r")
+print(folder.readable())
+print(folder.writable())
+
+#print(folder.read())
+text=folder.read()
+print(text)
+size=len(text)
+print("length of text :",size)
+folder.seek(0) 
+list=folder.readlines()
+print(list)
+folder.seek(0) 
+list=folder.readlines()[1]
+print(list)
+folder.seek(0)
+for x in folder:
+    print(x)
+folder.close()
