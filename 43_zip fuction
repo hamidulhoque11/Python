@@ -1,0 +1,15 @@
+id =[101,102,103,104,105]
+name=["Hamidul","sohan","Asif","mufa","apurba"]
+print("id=",id)
+print("name=",name)
+print()
+print(list(zip(id,name)))
+print()
+print(list(zip(id,name,"12345")))
+print()
+print(list(zip(id,name,"123")))
+print()
+print(list(zip(id,name)))
+print()
+result=list(zip(id,name))
+print(result)
