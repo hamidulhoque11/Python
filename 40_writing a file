@@ -1,0 +1,16 @@
+'''name:hamidul
+age:25
+batch:19'''
+folder = open("data.txt", "w")
+folder.write("this is new text")
+folder.close()
+
+
+folder2 = open("new.txt", "w")
+folder2.write("semester : 8th")
+folder2.close()
+
+
+folder2 = open("new.txt", "r")
+print(folder2.read())
+folder2.close()
