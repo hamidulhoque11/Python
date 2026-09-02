@@ -1,0 +1,8 @@
+value=list(range(10))
+print(value)
+result=[x for x in value if x%2==0 ]
+print(result)
+
+result=[x*x for x in value if x%2==0]
+print(result)
+
