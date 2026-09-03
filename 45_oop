@@ -1,0 +1,19 @@
+class student():
+    name=""
+    id=""
+    cgpa=""
+    batch=""
+    blood=""
+    
+hamidul=student()
+hamidul.name="hamidul hoque masum"
+hamidul.id=101
+hamidul.cgpa=3.05
+hamidul.batch=19
+hamidul.blood="o-"
+print("name:",hamidul.name)
+print("id:",hamidul.id)
+print("cgpa:",hamidul.cgpa)
+print("batch:",hamidul.batch)
+print("blood:",hamidul.blood)
+
