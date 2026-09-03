@@ -1,0 +1,15 @@
+#c++ way
+a=100
+b=20
+temp=a
+a=b
+b=temp
+print("Swap:c++ way:")
+print("a=",a)
+print("b=",b) 
+
+#python way
+print("swap:python way")
+a,b=b,a
+print("a=",a)
+print("b=",b) 
