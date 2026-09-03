@@ -1,0 +1,8 @@
+def value(age):
+    if age<80:
+        raise ValueError ("Invalid voter")
+    return "valid"
+try:
+    print(value(15))
+except ValueError as e:
+    print(e)
