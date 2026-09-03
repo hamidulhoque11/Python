@@ -1,0 +1,9 @@
+try:
+    id=[10,20,0]
+    result=id[0]/id[10]
+except TypeError:
+    print("Type error")
+except ZeroDivisionError:
+    print("zoro division error")
+finally:
+    print("my name is hamidul hoque")
