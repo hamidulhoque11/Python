@@ -1,0 +1,30 @@
+class student():
+    name=""
+    id=""
+    cgpa=""
+    batch=""
+    blood=""
+    def display(self):
+        print("name:",self.name)
+        print("id:",self.id)
+        print("cgpa:",self.cgpa)
+        print("batch:",self.batch)
+        print("blood:",self.blood)
+
+hamidul=student()
+hamidul.name="hamidul hoque masum"
+hamidul.id=101
+hamidul.cgpa=3.05
+hamidul.batch=19
+hamidul.blood="o-"
+hamidul.display()
+print()
+
+mufa=student()
+mufa.name="mufassir mahmud"
+mufa.id=102
+mufa.cgpa=3.66
+mufa.batch=19
+mufa.blood="a+"
+mufa.display()
+
