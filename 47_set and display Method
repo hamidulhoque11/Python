@@ -1,0 +1,29 @@
+class student():
+    name=""
+    id=""
+    cgpa=""
+    batch=""
+    blood=""
+    def set(self,name,id,cgpa,batch,blood,):
+        self.name=name
+        self.id=id
+        self.cgpa=cgpa
+        self.batch=batch
+        self.blood=blood
+
+    def display(self):
+        print("name:",self.name)
+        print("id:",self.id)
+        print("cgpa:",self.cgpa)
+        print("batch:",self.batch)
+        print("blood:",self.blood)
+
+hamidul=student()
+hamidul.set("hamidul hoque masum",101,3.05,19,"o-")
+hamidul.display()
+print()
+
+mufa=student()
+mufa.set("mufassir mahmud",102,3.66,19,"")
+mufa.display()
+
