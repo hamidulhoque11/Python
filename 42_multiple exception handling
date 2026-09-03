@@ -1,0 +1,9 @@
+try:
+    a=int (input("Enter fast value:"))#if enter  float value 
+    b=int (input("enter second value:"))#if enter 0
+    result=a/b
+    print(result)
+except (ZeroDivisionError,ValueError):
+    print("---you have entered incurrect input---")
+finally:
+    print("lots of code here")
