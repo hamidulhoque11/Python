@@ -1,0 +1,20 @@
+class student:
+    name=""
+    id=""
+    cgpa=""
+    batch=""
+    def __init__(self,name,id,cgpa,batch):
+        self.name=name
+        self.id=id
+        self.cgpa=cgpa
+        self.batch=batch
+    def display(self):
+        print("name =",self.name)
+        print("id =",self.id)
+        print("cpga =",self.cgpa)
+        print("batch =",self.batch)
+        print()
+st=student("hamidul",101,3.00,19)
+st.display()
+st1=student("mufa",102,3.50,19)
+st1.display()
