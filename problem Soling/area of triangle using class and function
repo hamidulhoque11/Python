@@ -1,0 +1,22 @@
+class triangle:
+    base=""
+    height=""
+    
+    def __init__(self, base,height):
+        self.base=base
+        self.height=height
+    def celculate(self):
+        area=0.5*self.height*self.base
+        return area
+    def display(self):
+        area=self.celculate()
+        print("Area of triangle:",area)
+t1=triangle(10,20)
+print(t1.celculate())
+t1.display()
+print()
+
+
+t2=triangle(20,30)
+print(t2.celculate())
+t2.display()
