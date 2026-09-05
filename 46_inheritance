@@ -1,0 +1,16 @@
+class phone:
+    def call(self):
+        print("you can call ")
+    def photo(self):
+        print("you can use photo")
+    def gmail(self):
+        print("you can use gmail")
+class iphone(phone):
+    def icloud (self):
+        print("only iphone can use icloud ")
+ipn=iphone()
+ipn.call()
+ipn.photo()
+ipn.gmail()
+ipn.icloud()
+print(issubclass(iphone,phone))
