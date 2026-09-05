@@ -1,0 +1,8 @@
+class bike:
+    def __init__(self):
+        print("i am in bike")
+class r15(bike):
+    def __init__(self):
+        super().__init__()
+        print("i am in r15")
+yamaha=r15()
