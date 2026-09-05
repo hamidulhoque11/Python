@@ -1,0 +1,18 @@
+class shape:
+    def __init__(self,length,width):
+        self.length=length
+        self.width=width  
+class triangle(shape):
+    def calculate_tri(self):
+        area=0.5*self.length*self.width
+        print("Area of triangle:",area)
+class ractangle(shape):
+    def calculate_ract(self):
+        area=self.length*self.width
+        print("area of rectangle:",area)
+
+tri=triangle(10,20)
+tri.calculate_tri()
+
+rec=ractangle(10,20)
+rec.calculate_ract()
