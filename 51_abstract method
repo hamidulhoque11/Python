@@ -1,0 +1,24 @@
+
+from abc import ABC,abstractmethod
+class shape(ABC):
+    def __init__(self,l,w):
+        self.l=l
+        self.w=w 
+
+    @abstractmethod
+    def area(self):
+        print("no shape")
+class triangle(shape):
+    def area(self):
+        area=self.l*self.w*0.5
+        print("triangle:",area)
+class ractangle(shape):
+    def area(self):
+        area=self.l*self.w
+        print("Ractangle:",area)
+
+t = triangle(10,20)
+t.area()
+r = ractangle(10,20)
+r.area()
+        
