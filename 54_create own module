@@ -1,0 +1,12 @@
+'''
+ ------create own module
+another file's function
+def triangle(a,b):
+    print("area of triangle:",0.5*a*b)
+def ractangle(a,b):
+    print("area of ractangle:",a*b)
+    
+'''
+from area import triangle,ractangle
+triangle(10,20)
+ractangle(10,20)
