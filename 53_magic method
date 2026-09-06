@@ -1,0 +1,18 @@
+
+class computers:
+    def __init__ (self,proccessor,ram):
+        self.proccessor=proccessor
+        self.ram=ram
+    def __eq__(self,other):
+        return self.proccessor==other.proccessor and self.ram==other.ram
+    def __str__(self):
+        return (f"P. Name: {self.proccessor} ,Ram size:{self.ram}")
+    def display(self):
+        print(f"P. Name: {self.proccessor} ,Ram size:{self.ram}")
+
+laptop=computers("i7","8GB")
+print("laptop:",str(laptop))
+desktop=computers("i7","8GB")
+print("desktop:",end=" ")
+desktop.display()
+print("laptop and desktop specification chack:",laptop==desktop)
