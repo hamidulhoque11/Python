@@ -1,0 +1,26 @@
+import re
+
+#1
+
+pattern=r"hamidul its my name"
+if re.match(pattern,"hamidul its my name"):
+    print("match")
+else:
+    print("not match")
+
+#2
+
+color="black"
+if re.match(color,"red"):
+    print("match")
+else:
+    print("not match")
+
+#3.
+color =r"red like a blood"
+text=r"red like a blood"
+match=re.match(color,text)
+if match:
+    print("match")
+else:
+    print("not match")
