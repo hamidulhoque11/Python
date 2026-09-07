@@ -1,0 +1,29 @@
+import re
+
+#1
+
+pattern=r"hamidul"
+if re.search(pattern," he is name is hamidul hoque masum ,every one call him hamid"):
+    print("match")
+else:
+    print("not match")
+
+#2
+
+color="black"
+if re.search(color,"black is my favorite"):
+    print("match")
+else:
+    print("not match")
+
+#3.
+search =r"red"
+text=r"red like a blood"
+match=re.search(search,text)
+if match:
+    print("match")
+    print(match.start())
+    print(match.end())
+    print(match.span())
+else:
+    print("not match")
