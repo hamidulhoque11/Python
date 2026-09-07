@@ -1,0 +1,11 @@
+import re
+
+pattern=r"hamid"
+findAll =re.findall(pattern," hamidul he is name is hamidul hoque masum every one call him hamid")
+
+print(findAll)
+count=0
+for x in findAll:
+    print(x)
+    count=count+1
+print(f"found {count} times {pattern}")
