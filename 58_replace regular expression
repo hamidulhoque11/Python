@@ -1,0 +1,7 @@
+import re
+text="i love cricket, cricket is a first priority"
+print("before:",text)
+replace ="football"
+remove="cricket"
+replace_text=re.sub(remove,replace,text,count=1)
+print("after:",replace_text)
