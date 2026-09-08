@@ -1,0 +1,25 @@
+import re
+color=r"gre...en"
+if re.match(color,"greapcen"):
+  print("match")
+
+color=r"^gre...en$"
+if re.match(color,"gre888en"):
+  print("match")
+
+color =r"green*"
+if re.match(color,"greennnnnnn"):
+  print("match")
+
+color=r"g+reen"
+if re.match(color,"gggggreen"):
+   print("match")
+color=r"0112(-)?3241"
+if re.match(color,"01123241"):
+  print("match")
+
+color=r"p{1,2}"
+if re.match(color,"pp"):
+  print("match")
+else:
+  print("not match")
