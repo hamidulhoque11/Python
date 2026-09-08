@@ -1,0 +1,8 @@
+import re
+passw=r"[A-Z][a-z][0-9]....."
+add_pass=input("Enter your new 8 digit pass (Aq1aaaaa):")#Ha1midul
+if re.match(passw,add_pass,):
+    print("currect pass")
+else:
+    print("your pass is incorrect")
+    print("please enter a sequence capital latter ,samall latter, then number,ex:'Ab1'")
