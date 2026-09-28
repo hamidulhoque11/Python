@@ -17,8 +17,8 @@ for x in B:
     print(x)
 print()
 resutlt=[
-    [A[row][col]-B[row][col] for row in range(3) ]
-    for col in range(3)
+    [A[row][col]-B[row][col] for col in range(3) ]
+    for row in range(3)
 ]
 
 print("A-B=")
